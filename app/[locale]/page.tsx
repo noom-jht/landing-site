@@ -3,13 +3,13 @@ import { translations, Locale } from "../translations";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 
 interface PageProps {
-  params: {
+  params: Promise<{
     locale: Locale;
-  };
+  }>;
 }
 
-export default function Home({ params }: PageProps) {
-  const { locale } = params;
+export default async function Home({ params }: PageProps) {
+  const { locale } = await params;
   const t = translations[locale];
 
   return (

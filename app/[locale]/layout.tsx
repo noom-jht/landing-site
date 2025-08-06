@@ -12,17 +12,14 @@ export const metadata: Metadata = {
   },
 };
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }>) {
-  // Set the language attribute on the html element
-  if (typeof document !== 'undefined') {
-    document.documentElement.lang = params.locale;
-  }
+  const { locale } = await params;
   
   return children;
 } 
