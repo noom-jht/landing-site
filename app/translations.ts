@@ -7,7 +7,7 @@ export const translations = {
     },
     hero: {
       title: "Relationships Driven by Trust",
-      subtitle: "Solutions",
+      subtitle: "",
       description:
         "Expert trading strategies and strategic consulting to drive your business forward. We combine financial expertise with innovative solutions for sustainable growth.",
       exploreServices: "Explore Services",
