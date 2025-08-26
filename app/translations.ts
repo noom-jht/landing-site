@@ -6,7 +6,7 @@ export const translations = {
       contact: "Contact",
     },
     hero: {
-      title: "Trading & Consulting",
+      title: "Relationships Driven by Trust",
       subtitle: "Solutions",
       description:
         "Expert trading strategies and strategic consulting to drive your business forward. We combine financial expertise with innovative solutions for sustainable growth.",
@@ -96,7 +96,7 @@ export const translations = {
       contact: "聯絡我們",
     },
     hero: {
-      title: "交易與諮詢",
+      title: "建立值得信任的長久關係",
       subtitle: "解決方案",
       description:
         "專業的交易策略和戰略諮詢服務，推動您的業務發展。我們結合金融專業知識和創新解決方案，實現可持續增長。",
