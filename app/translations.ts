@@ -8,14 +8,18 @@ export const translations = {
     hero: {
       title: "Relationships Driven by Trust",
       subtitle: "",
-      description:
-        "Expert trading strategies and strategic consulting to drive your business forward. We combine financial expertise with innovative solutions for sustainable growth.",
+      description: [
+        "We believe in establishing trust.",
+        "Trust let's us build relationships across multiple sectors.",
+        "With trusted experts across sectors, we can provide you with the best solutions.",
+        "Let us become your trusted partner.",
+      ],
       exploreServices: "Explore Services",
       getStarted: "Get Started",
     },
     services: {
       title: "Our Services",
-      subtitle: "Comprehensive solutions tailored to your business needs",
+      subtitle: "Trustworthy solutions tailored to your needs",
       trading: {
         title: "Trading Solutions",
         description:
@@ -98,8 +102,12 @@ export const translations = {
     hero: {
       title: "建立值得信任的長久關係",
       subtitle: "解決方案",
-      description:
-        "專業的交易策略和戰略諮詢服務，推動您的業務發展。我們結合金融專業知識和創新解決方案，實現可持續增長。",
+      description: [
+        "• 專業的交易策略和戰略諮詢服務，推動您的業務發展",
+        "• 我們結合金融專業知識和創新解決方案，實現可持續增長",
+        "• 通過多年的經驗和實證結果，我們建立了提供卓越價值的聲譽",
+        "• 我們維護最高誠信標準，贏得客戶長期信任",
+      ],
       exploreServices: "探索服務",
       getStarted: "立即開始",
     },

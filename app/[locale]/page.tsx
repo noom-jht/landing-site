@@ -1,4 +1,4 @@
-import Image from "next/image";
+//import Image from "next/image";
 import { translations, Locale } from "../translations";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 
@@ -52,9 +52,13 @@ export default async function Home({ params }: PageProps) {
               {t.hero.title}
               <span className="block text-blue-600 dark:text-blue-400">{t.hero.subtitle}</span>
             </h1>
-            <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 max-w-3xl mx-auto">
-              {t.hero.description}
-            </p>
+            <div className="text-xl text-slate-600 dark:text-slate-300 mb-8 max-w-3xl mx-auto space-y-3 text-left">
+              {t.hero.description.map((point, index) => (
+                <p key={index} className="flex items-start justify-start">
+                  <span className="mr-2">{point}</span>
+                </p>
+              ))}
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#services"
