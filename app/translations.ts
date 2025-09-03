@@ -23,9 +23,9 @@ export const translations = {
       trading: {
         title: "Trading Solutions",
         description:
-          "Advanced trading strategies and market analysis to optimize your investment portfolio and maximize returns.",
+          "Our broad range of trusted connections allows us to provide you with worthy item.",
         features: [
-          "Market Analysis & Research",
+          "Polyester Materials especially PET films",
           "Portfolio Management",
           "Risk Management",
           "Algorithmic Trading",
