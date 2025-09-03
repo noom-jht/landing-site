@@ -23,9 +23,10 @@ export const translations = {
       trading: {
         title: "Trading Solutions",
         description:
-          "Our broad range of trusted connections allows us to provide you with worthy item.",
+          "Our broad range of trusted connections allows us to provide you with worthy items.",
         features: [
-          "Polyester Materials especially PET films",
+          "Wide variety of PET films",
+          "Customized PCB boards",
           "Portfolio Management",
           "Risk Management",
           "Algorithmic Trading",
