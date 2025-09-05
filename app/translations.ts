@@ -24,13 +24,7 @@ export const translations = {
         title: "Trading Solutions",
         description:
           "Our broad range of trusted connections allows us to provide you with worthy items.",
-        features: [
-          "Wide variety of PET films",
-          "Customized PCB boards",
-          "Portfolio Management",
-          "Risk Management",
-          "Algorithmic Trading",
-        ],
+        features: ["Wide variety of PET films", "Customized PCB boards"],
       },
       consulting: {
         title: "Consulting Services",
